@@ -1,0 +1,679 @@
+
+.FieldAction {
+	position:			absolute;
+	color:				blue;
+	font-family:		Verdana,Tahoma;
+	font-size:			10pt;
+	font-weight:		bold;
+	padding-top:		0px;
+	cursor:				pointer;
+}
+
+.FieldActionBold {
+	position:			absolute;
+	color:				blue;
+	font-family:		Verdana, Tahoma;
+	font-size:			8pt;
+	font-weight:		bold;
+	padding-top:		0px;
+	cursor:				pointer;
+}
+
+.FieldActionBtn {
+	position:			absolute;
+	color:				blue;
+	font-family:		Verdana,Tahoma;
+	font-size:			8pt;
+	font-weight:		bold;
+	cursor:				pointer;
+	padding:			5px 5px 5px 5px;
+}
+
+.FieldActionBtn2 {
+	position:			absolute;
+	color:				blue;
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		bold;
+	cursor:				pointer;
+}
+
+.FieldCal {
+	position:			absolute;
+	z-index:			10001;
+	margin:				0px;
+	padding:			2px;	
+	border-style:		none;
+	border-color:		rgb(128,157,185);
+	border-width:		0px;
+    width:				19px;
+    height:				17px;	
+    cursor:				pointer;
+}
+
+.FieldGroupBoxxxxxxxxxx  {
+    position:			absolute;
+    overflow:			auto;
+	background:			transparent;
+	border-style:		solid;
+	border-color:		rgb(200,200,200);
+	border-width:		2px;
+    fffilter:				progid:DXImageTransform.Microsoft.Gradient(startColorstr=#ffffff, endColorstr=#e8e8e8, gradientType='1');
+}
+
+.FieldGroupBoxNoBorderxxxxxxxx  {
+    position:			absolute;
+    overflow:			auto;
+	background:			transparent;
+	border-style:		none;
+	border-color:		green;
+	border-width:		1px;
+}
+
+.FieldHdr {
+    position:			absolute;
+	color:			    rgb(40,40,40);
+    font-family:		Tahoma, Verdana, Lucida Sans, Arial;
+    font-weight:		normal;
+    font-size:			9pt;
+    padding-top:		4px;
+    padding-bottom:		4px;
+    margin:				0px;
+	border-style:		none;
+	border-color:		blue;
+	border-width:		1px;
+}
+
+.FieldHdr2 {
+    position:			absolute;
+    color:				rgb(51,66,96);
+    font-family:		Tahoma, Verdana, Arial, Verdana;
+    font-weight:		normal;
+    font-size:			9pt;
+    padding-top:		4px;
+    padding-bottom:		4px;
+    margin:				0px;
+	border-style:		none;
+	border-color:		blue;
+	border-width:		1px;
+}
+
+.FieldHdrBold {
+    position:			absolute;
+    color:				rgb(51,66,96);
+    font-family:		Tahoma, Verdana, Arial, Verdana;
+    font-weight:		bold;
+    font-size:			9pt;
+    padding-top:		4px;
+    padding-bottom:		4px;
+    margin:				0px;
+	border-style:		none;
+	border-color:		blue;
+	border-width:		1px;
+}
+
+.FieldHdr.Counter {
+    position:			absolute;
+    color:				rgb(120,120,120);
+    font-family:		Tahoma, Verdana, Arial, Verdana;
+    font-weight:		normal;
+    font-size:			8pt;
+    padding:			0px;
+    margin:				0px;
+	text-align:			right;
+	width:				130px;
+}
+
+.FieldHdrGray {
+    position:			absolute;
+    color:				rgb(180,180,180);
+    font-family:		Tahoma, Verdana;
+    font-weight:		bold;
+    font-size:			8pt;
+    padding-top:		3px;
+}
+
+.FieldHdrHidden {
+    position:			absolute;
+    visibility:			hidden;
+    display:			none;
+    color:				rgb(140,140,140);
+    font-family:		Tahoma, Verdana;
+    font-weight:		normal;
+    font-size:			8pt;
+    padding-top:		3px;
+
+	border-style:		none;
+	border-color:		rgb(220,220,220);
+	border-width:		1px;
+}
+
+.FieldHdrBold {
+    position:			absolute;
+    color:				rgb(140,140,140);
+    font-family:		Tahoma, Verdana;
+    font-weight:		bold;
+    font-size:			8pt;
+    padding-top:		2px;
+    padding-left:		2px;
+}
+
+.FieldHdrBoldWithPtr {
+    position:			absolute;
+    color:				rgb(140,140,140);
+    font-family:		Tahoma, Verdana;
+    font-weight:		bold;
+    font-size:			8pt;
+    padding-top:		0px;
+    cursor:				pointer;
+}
+
+.FieldHdrBolder {
+    position:			absolute;
+    color:				rgb(100,100,100);
+    font-family:		Tahoma, Verdana;
+    font-weight:		bold;
+    font-size:			8pt;
+    padding-top:		0px;
+}
+
+.FieldHdr.Center {
+	text-align:			center;
+	width:				130px;
+}
+
+.FieldHdrCheckbox
+{
+    color:				rgb(51,66,96);
+    font-family:		Verdana, Arial, Verdana;
+    font-weight:		normal;
+    font-size:			9pt;
+    float:              left;
+	margin:				0px;
+	padding:			0px;
+    padding-left:       3px;
+	cursor:				pointer;
+}
+
+.FieldHdrCheckbox {
+	position:			absolute;
+    color:				rgb(140,140,140);
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		normal;
+}
+
+.FieldHdrCheckboxHilite {
+	position:			absolute;
+    color:				orange;
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		normal;
+	margin:				0px;
+	padding:			0px;
+	cursor:				pointer;
+}
+
+.FieldHdrCheckbox.Smaller 
+{
+    font-size: 8pt;
+}
+
+.FieldHdrCheckbox.Required {
+	font-weight: bold;
+}
+
+.FieldHdrCheckbox2 {
+    position:		absolute;
+    color:			rgb(51,66,96);
+    font-family:	Verdana, Arial, Verdana;
+    font-weight:	normal;
+    font-size:		9pt;
+    padding-top:	4px;
+    padding-bottom:	4px;
+    margin:			0px;
+	cursor:			pointer;
+}
+
+.FieldHdr.Required, FieldHdr2.Required {
+	font-weight:    bold;
+}
+
+.FieldHdr.Right {
+	text-align:     right;
+	width:			130px;
+}
+
+.FieldHdrRightBold {
+    position:			absolute;
+    color:				rgb(140,140,140);
+    font-family:		Tahoma, Verdana;
+    font-weight:		bold;
+    font-size:			8pt;
+    padding-top:		3px;
+    text-align:			right;
+}
+
+.FieldHelp {
+    position:			absolute;
+    color:				rgb(160,160,160);
+    font-family:		Tahoma, Verdana;
+    font-weight:		normal;
+    font-size:			8pt;
+    padding-top:		3px;
+}
+
+.FieldHelp2 {
+    position:			absolute;
+    color:				rgb(190,190,190);
+    font-family:		Tahoma, Verdana;
+    font-weight:		bold;
+    font-size:			8pt;
+    padding-top:		3px;
+}
+
+.FieldMsg {
+	position:			absolute;
+	color:				red;
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		bold;
+	margin:				0px;
+	padding-top:		0px;	
+	padding-left:		2px;
+}
+
+.FieldRequiredFlag {
+	color:				red;
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		bold;
+	vertical-align:		bottom;	
+	text-align:			center;	
+	margin:				0px;
+	padding-top:		0px;	
+	padding-left:		2px;
+}
+
+.FieldVal {
+	position:		absolute;
+	/*
+	background:		rgb(247,249,253) url(../images/online-app-input-field-bkgrnd.png) repeat-x bottom;
+	*/
+	color:			rgb(40,40,40);
+    color:			rgb(30,103,168);
+	font-family:	Tahoma, Verdana;
+	font-size:		9pt;
+	font-weight:	normal;
+	border-style:	solid;
+	border-width:	1px;
+	border-color:	rgb(180,180,180);
+	border-color:	rgb(140,140,140);
+	margin:			0px;
+	padding:		2px 2px 3px 4px;
+}
+
+.FieldVal.Center {
+	text-align:		center;
+}
+
+.FieldVal.Smaller {
+	font-size:		80%;
+}
+
+.FieldVal.BigInput {
+	background-color: white;
+}
+
+.FieldValReadOnly {
+	position:			absolute;
+ 	color:			    rgb(72,46,34);
+    background:			rgb(240,240,240);
+    bbbbackground:			transparent;
+	font-family:		Tahoma, Verdana;
+	font-size:			9pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		1px;
+	margin:				0px;
+	padding:			2px 0px 3px 2px;
+	cursor:				default;
+} 
+
+.FieldVal.ReadOnly {
+    color:				rgb(30,103,168);
+    background:			rgb(240,240,240);
+    background:			transparent;
+	font-family:		Tahoma, Verdana;
+	cursor:				default;
+} 
+
+.FieldValReadOnlyBold {
+	position:			absolute;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		bold;
+	margin:				0px;
+	padding:			0px;	
+} 
+
+.FieldValDropdown {
+	position:			absolute;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			9pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		1px;
+	margin:				0px;
+	padding:			2px 2px 1px 2px;
+}
+
+.FieldValDropdownIE {
+	position:			absolute;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			9pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		1px;
+	margin:				0px;
+	padding:			2px 2px 1px 2px;
+}
+
+.FieldValBold {
+	position:			absolute;
+	background:			#ffffff url(../Images/textboxgradtop.gif) repeat-x top;    
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			80%;
+	font-weight:		bold;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		2px;
+	margin:				0px;
+	padding:			4px;	
+}
+
+.FieldValCell {
+	position:			relative;
+    color:				blue;
+    background:			transparent;
+	font-family:		Verdana, Tahoma;
+	font-size:			8pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-width:		1px;
+	border-color:		rgb(140,140,140);
+	margin:				0px;
+	margin-right:		4px;
+	margin-top:			2px;
+	padding:			2px;
+	cursor:				pointer;
+}
+
+.FieldValCell2 {
+	position:			relative;
+    color:				blue;
+    background:			transparent;
+	font-family:		Verdana, Tahoma;
+	font-size:			8pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-width:		1px;
+	border-color:		rgb(140,140,140);
+	margin:				0px;
+	padding:			2px;
+	vertical-align:middle;
+	cursor:				pointer;
+}
+
+.FieldValCheckbox {
+	position:			absolute;
+    color:				rgb(51,66,96);
+	font-family:		Verdana, Tahoma;
+	font-size:			9pt;
+	font-weight:		normal;
+    border-style:		none;
+	margin:				0px;
+	padding:			0px;
+    width:              15px;
+    height:             15px;
+    float:              left; /* Do this to get things to align correctly across browsers. */
+	cursor:				pointer;
+}
+
+.FieldValCheckbox.Smaller
+{
+    width: 13px;
+    height: 13px;
+}
+
+.FieldValDate {
+	position:			absolute;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		2px;
+	margin:				0px;
+	padding:			4px;	
+	height:				28px;
+	/*
+    filter:				progid:DXImageTransform.Microsoft.Gradient(startColorstr=#ffffff, endColorstr=#e8e8e8, gradientType='1');
+	*/
+}
+
+.FieldValDynamic {
+    position:			absolute;
+    background:         transparent;
+    color:				rgb(0,0,255);
+    font-family:		Verdana, Tahoma;
+    font-size:			9pt;
+    font-weight:		normal;
+    padding:		    4px 4px 4px 4px;
+	cursor:				pointer;
+}
+
+.FieldValEssayBox {
+	position:		absolute;
+    color:			rgb(30,103,168);
+	font-family:	Verdana, Tahoma;
+	font-size:		10pt;
+	font-weight:	normal;
+	border-style:	solid;
+	border-width:	1px;
+	border-color:	rgb(140,140,140);
+	background:		rgb(240,240,240);
+	padding:		5px;
+	filter:			progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#DDDDDD');
+	background:		-webkit-gradient(linear, left bottom, right bottom,	color-stop(0.28, rgb(255,255,255)),	color-stop(0.87, rgb(180,180,180)));
+	background:		-moz-linear-gradient(100% 100% 180deg, rgb(230,230,230), rgb(255,255,255));
+}
+
+.FieldValHidden {
+	position:			absolute;
+	visibility:			hidden;
+    color:				rgb(140,140,140);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		orange;
+	border-width:		1px;
+	margin:				0px;
+	padding:			4px;	
+	height:				28px;
+}
+
+.FieldValList {
+	position:			absolute;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		normal;
+	margin:				0px;
+	padding:			4px;	
+	
+	border-style:		none;
+	border-color:		rgb(140,140,140);
+	border-width:		1px;
+}
+
+.FieldValMoney {
+	position:			absolute;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		2px;
+	margin:				0px;
+	padding:			4px;	
+	height:				28px;
+	/*
+    fffffilter:				progid:DXImageTransform.Microsoft.Gradient(startColorstr=#ffffff, endColorstr=#e8e8e8, gradientType='1');
+	*/
+}
+
+.FieldValNoBorder {
+	position:			absolute;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		normal;
+	margin:				0px;
+	padding:			0px;	
+} 
+
+.FieldValNumeric {
+	position:			absolute;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(128,157,185);
+	border-width:		1px;
+	text-align:			left;
+	margin:				0px;
+	padding:			4px;	
+	height:				28px;
+    /*
+    fffffilter:				progid:DXImageTransform.Microsoft.Gradient(startColorstr=#ffffff, endColorstr=#e8e8e8, gradientType='1');
+	*/
+}
+ 
+.FieldValNumericLeft {
+	position:			absolute;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(128,157,185);
+	border-width:		1px;
+	text-align:			left;
+	margin:				0px;
+	padding:			4px;	
+	height:				28px;
+    /*
+    fffffilter:				progid:DXImageTransform.Microsoft.Gradient(startColorstr=#ffffff, endColorstr=#e8e8e8, gradientType='1');
+	*/
+}
+
+.FieldValDisabledTextArea {
+	position:			absolute;
+	background:			rgb(253,253,253);
+	color:				rgb(60,60,60);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(220,220,220);
+	border-width:		1px;
+	margin:				0px;
+	padding:			4px;	
+}
+
+.FieldValULine {
+	position:			absolute;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(128,157,185);
+	border-width:		0px;
+	border-bottom-width:1px;
+	margin:				0px;
+	padding:			4px;	
+	height:				18px;
+}
+
+.FieldValULineCenter {
+	position:			absolute;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(128,157,185);
+	border-width:		0px;
+	border-bottom-width:1px;
+	text-align:			center;
+	margin:				0px;
+	padding:			4px;	
+	height:				18px;
+}
+
+.FieldValULineBoldCenter {
+	position:			absolute;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			8pt;
+	font-weight:		bold;
+	border-style:		solid;
+	border-color:		rgb(128,157,185);
+	border-width:		0px;
+	border-bottom-width:1px;
+	text-align:			center;
+	margin:				0px;
+	padding:			4px;	
+	height:				18px;
+}
+
+.FilterHdr {
+    position:			absolute;
+	color:				rgb(46,109,142);
+    font-family:		Tahoma, Verdana;
+    font-weight:		normal;
+    font-size:			8pt;
+    padding-top:		3px;
+
+	border-style:		none;
+	border-color:		rgb(220,220,220);
+	border-width:		1px;
+}
+
+.NoBorder {
+	border-style:		none;
+	border-width:		0px;
+}
+
+.Center {
+	text-align:		center;
+	padding-left:   auto;
+	padding-right:  auto;
+}
+
+
+

@@ -1,0 +1,68 @@
+
+/* Aesthetics */
+
+/* override for global style */
+#ContentBox {
+	overflow:	visible;
+}
+
+#LogoutBox
+{
+    position:		relative;
+    overflow:		visible;
+    z-index:		100;
+    background:		white;
+	border:		    solid 1px rgb(40,40,40);
+	padding:		10px 10px 10px 10px;
+	margin:			20px 20px 100px 20px;
+	
+	background:		-moz-linear-gradient(100% 100% 180deg, rgb(114,133,157), rgb(255,255,255));
+	background:		-webkit-gradient(linear, left bottom, right bottom,	color-stop(0.28, rgb(255,255,255)),	color-stop(0.87, rgb(114,133,157)));
+	filter:			progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#72859D');
+
+	border-radius:			.5em; /* CSS3 rounded corners (when available)*/
+	-moz-border-radius:		.5em; /* Firefox 3.5+ rounded corners */
+	-webkit-border-radius:	.5em; /* Safari, Chrome rounded corners */
+	
+	-moz-box-shadow:	0px 0px 3px 3px rgb(180,180,180); /* Firefox 3.5+ box shadow */
+	-webkit-box-shadow:	0px 0px 3px 3px rgb(180,180,180); /* Safari, Chrome box shadow */
+
+}
+
+#LogoutFields
+{
+    position:		relative;
+    overflow:		visible;
+	border:		    solid 0px red;
+	padding:		10px;
+	margin:			0px 0px 10px 5px;
+}
+
+#LogoutImg
+{
+    position:       relative;
+    display:        inline-block;
+	border:		    solid 0px green;
+}
+
+#LogoutMsg
+{
+    position:       relative;
+    display:inline-block;
+	color:			rgb(40,40,40);
+    color:			rgb(30,103,168);
+	font-family:	Tahoma, Verdana;
+	font-size:		10pt;
+	font-weight:	normal;
+	border:	        solid 0px rgb(30,103,168);
+	margin:			4px 0px 4px 0px;
+	padding:		4px 4px 4px 4px;
+	vertical-align: top;
+}
+
+/* Initial Layout */
+
+#LogoutBox	{width: 900px; height: 100px;}
+#LogoutImg	{left: 5px;  top:  0px; }
+#LogoutMsg	{left: 25px; top: 5px; }
+

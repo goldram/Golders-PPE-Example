@@ -1,0 +1,122 @@
+
+/* Aesthetics */
+
+/* override for global style */
+
+#AdminBox {
+	overflow:	visible;
+	padding:	0px 0px 20px 0px;
+}
+
+/* override for global style */
+#ContentBox {
+	overflow:	visible;
+}
+
+.test
+{
+    color: #D5C69A;
+}
+
+#EmpBox, #OrderBox, #ProdBox  {
+    position:	    relative;
+    overflow:	    auto;
+	border-style:	solid;
+	border-color:	rgb(200,200,200);
+	border-width:	1px;
+	margin:			15px 0px 0px 30px;
+	padding:		10px 0px 0px 0px;
+	width:			915px;
+	
+	background:		-moz-linear-gradient(100% 100% 180deg, rgb(114,133,157), rgb(255,255,255));
+	background:		-webkit-gradient(linear, left bottom, right bottom,	color-stop(0.28, rgb(255,255,255)),	color-stop(0.87, rgb(114,133,157)));
+	filter:			progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#72859D');
+
+	border-radius:			.5em; /* CSS3 rounded corners (when available)*/
+	-moz-border-radius:		.5em; /* Firefox 3.5+ rounded corners */
+	-webkit-border-radius:	.5em; /* Safari, Chrome rounded corners */
+	
+	-moz-box-shadow: 3px 3px 3px rgb(120,120,120); /* Firefox 3.5+ box shadow */
+	-webkit-box-shadow: 3px 3px 3px rgb(120,120,120); /* Chrome/Safari box shadow */
+}
+
+
+/* Initial Layout */
+
+#EmpBox     {height:120px; width:915px;}
+#OrderBox   {height:300px; width:915px;}
+#ProdBox    {height:200px; width:915px;}
+
+#AdminBox {width:920px;}
+
+#StatusMsg {left: 10px; top: 10px; width:500px; height: 30px;}
+
+#EmpBox .ActionBar {width:250px;}
+#EmpBox .ActionBar #ActionRefresh	{left:  0px;}
+#EmpBox .ActionBar #ActionCancel	{left: 85px;}
+#EmpBox .ActionBar #ActionEdit		{left:170px;}
+
+
+/*-----------------------------------------------------------------------
+ Layout for Company information.    
+-------------------------------------------------------------------------*/
+
+#EmpBox    {height:110px;}
+
+#EmpStatusMsg {left: 10px; top: 10px; width:500px; height: 30px;}
+
+#EmpBox .ActionBar {width:250px;}
+#EmpBox .ActionBar #ActionRefresh	{left:  0px;}
+#EmpBox .ActionBar #ActionCancel	{left: 85px;}
+#EmpBox .ActionBar #ActionEdit		{left:170px;}
+
+#EmpBox #CompanyHdr     {left: 10px; top: 40px; width:100px;}
+#EmpBox #Company		{left:120px; top: 40px; width:260px;}
+#EmpBox #LocationHdr	{left: 10px; top: 60px; width:100px;}
+#EmpBox #Location		{left:120px; top: 60px; width:260px;}
+#EmpBox #EmailHdr	    {left: 10px; top: 80px; width:100px;}
+#EmpBox #Email		    {left:120px; top: 80px; width:260px;}
+
+#EmpBox #PayMethodHdr   {left:440px; top: 40px; width:160px;}
+#EmpBox #PayMethod		{left:610px; top: 40px; width:260px;}
+#EmpBox #PayNumberHdr	{left:440px; top: 60px; width:160px;}
+#EmpBox #PayNumber		{left:610px; top: 60px; width:260px;}
+
+
+/*-----------------------------------------------------------------------
+ Layout for list of orders.    
+-------------------------------------------------------------------------*/
+
+#OrderBox  {height:400px;}
+
+#OrderStatusMsg {left: 10px; top: 10px; width:500px; height: 30px;}
+
+#OrderBox .StatusMsg {left: 25px; top: 40px; width:500px; height: 30px;}
+
+#OrderBox .ActionBar {width:400px;}
+#OrderBox .ActionBar #ActionNewOrder    {left:  0px;}
+#OrderBox .ActionBar #ActionRefresh	    {left: 85px;}
+#OrderBox .ActionBar #ActionSave	    {left:170px; width: 100px;}
+#OrderBox .ActionBar #ActionCancel	    {left:280px; width: 110px;}
+
+#OrderListViewPortHdr {width:870px;} 
+#OrderColHdr {wwwidth:1000px;} /*Unfortunately, can't get this to automatically size so setting it to fixed value for now */
+#OrderColHdr #OrderEditHdr	    {width: 15px;}
+#OrderColHdr #OrderNumHdr	    {width:100px;}
+#OrderColHdr #CompanyHdr	    {width:120px;}
+#OrderColHdr #SiteHdr	        {width:120px;}
+#OrderColHdr #EmployeeHdr	    {width:120px;}
+#OrderColHdr #OrderStatusHdr	{width:100px;}
+#OrderColHdr #AuthorizeDateHdr	{width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #SubmitDateHdr		{width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #ProcessDateHdr	{width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #ShipDateHdr	    {width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #DeliverDateHdr	{width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #HoldDateHdr	    {width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #CancelDateHdr	    {width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #CloseDateHdr		{width: 80px; ttop: 0px; text-align: center;}
+
+#OrderListViewPort {width:870px;} 
+#OrderDataBox #DataItemBox {wwwidth:100%;}
+
+

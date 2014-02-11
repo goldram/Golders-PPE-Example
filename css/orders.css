@@ -1,0 +1,254 @@
+
+/* Aesthetics */
+
+/* override for global style */
+
+#AdminBox {
+	overflow:	visible;
+	padding:	0px 0px 20px 0px;
+}
+
+/* override for global style */
+#ContentBox {
+	overflow:	visible;
+}
+
+#ActionEditEmployee {
+	position:			absolute;
+	color:				blue;
+	font-family:		Verdana, Arial, Tahoma;
+	font-size:			8pt;
+	font-weight:		normal;
+	padding:			4px 0px 0px 0px;
+	margin:				0px;
+	border-style:		none;
+	border-width:		1px;
+	border-color:		rgb(200,200,200);
+	cursor:				pointer;
+	text-align:			center;
+	outline:			0; /* prevent focus rectangle */
+	top:				0px;
+	width:				45px;
+	height:				20px;
+	
+	
+	/*border-radius:			.5em;  CSS3 rounded corners (when available)*/
+	/*-moz-border-radius:		.5em;  Firefox 3.5+ rounded corners */
+	/* -webkit-border-radius:	.5em; Safari, Chrome rounded corners */
+    
+    /*
+	filter:				progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFF', EndColorStr='#DDDDDD');
+	background:			-moz-linear-gradient(100% 100% 90deg, rgb(230,230,230), rgb(255,255,255));
+	background:			-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255,255,255)), to(rgb(230,230,230)));
+    */
+}
+
+
+
+#ActionEditEmployee:hover
+{
+	color:      orange;
+	outline:	0; /* prevent focus rectangle */
+	/*
+	filter:         progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFF', EndColorStr='#FFFF00');
+	background:     -moz-linear-gradient(100% 100% 90deg, yellow, rgb(255,255,255));
+	background:		-webkit-gradient(linear, 0% 0%, 0% 100%, from(yellow), to(rgb(230,230,230)));
+    */
+}
+
+.test
+{
+    color: #D5C69A;
+}
+
+#EmpBox, #OrderBox  {
+    position:		relative;
+    overflow:		auto;
+	border:	        solid 1px rgb(200,200,200);
+	margin:			15px 0px 0px 30px;
+	padding:		10px 0px 0px 0px;
+	width:			915px;
+	
+	background:		-moz-linear-gradient(100% 100% 180deg, rgb(114,133,157), rgb(255,255,255));
+	background:		-webkit-gradient(linear, left bottom, right bottom,	color-stop(0.28, rgb(255,255,255)),	color-stop(0.87, rgb(114,133,157)));
+	filter:			progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#72859D');
+
+	border-radius:			.5em; /* CSS3 rounded corners (when available)*/
+	-moz-border-radius:		.5em; /* Firefox 3.5+ rounded corners */
+	-webkit-border-radius:	.5em; /* Safari, Chrome rounded corners */
+	
+	box-shadow:    3px 3px 3px rgb(120,120,120); /* Firefox 3.5+ box shadow */
+	-moz-box-shadow:    3px 3px 3px rgb(120,120,120); /* Firefox 3.5+ box shadow */
+	-webkit-box-shadow: 3px 3px 3px rgb(120,120,120); /* Chrome/Safari box shadow */
+	
+}
+
+#EmpBox {
+    display: none;
+}
+
+#DataItemBox #OrderCategory {
+	/*color:          rgb(40,40,40); */ /* brownish */
+	color:          rgb(40,40,40); /* darker brownish */
+	font-weight:    normal;
+}
+
+#OrderQtyDataBox {
+    border:         solid 1px rgb(40,40,40);
+    padding:        5px 0px 5px 0px;
+}
+
+.FieldHdr2 {
+    position:			relative;
+    color:				rgb(51,66,96);
+	color:			    rgb(40,40,40);
+    font-family:		Tahoma, Verdana, Lucida Sans, Arial;
+    font-weight:		normal;
+    font-size:			9pt;
+	border:		        solid 0px blue;
+    padding:		    4px 0px 4px 0px;
+    margin:				0px 0px 0px 0px;
+}
+
+.FieldVal2 {
+	position:		relative;
+	color:			rgb(40,40,40);
+    color:			rgb(30,103,168);
+	font-family:	Verdana, Tahoma;
+	font-size:		9pt;
+	font-weight:	normal;
+	border:	        solid 1px rgb(140,140,140);
+	margin:			0px 20px 0px 0px;
+    padding:		4px 4px 4px 4px;
+    cursor:         pointer;
+}
+
+.FieldVal2.ReadOnly {
+	position:		relative;
+    color:			rgb(30,103,168);
+	color:			rgb(40,40,40);
+	background-color: rgb(250,250,250);
+	font-family:	Tahoma, Verdana;
+	font-size:		9pt;
+	font-weight:	normal;
+	border:	        solid 1px rgb(140,140,140);
+	margin:			0px;
+    padding:		4px 4px 4px 4px;
+    cursor:         default;
+}
+
+.FieldVal2.ReadOnlyNoBorder {
+	position:		relative;
+    color:			rgb(30,103,168);
+	color:			rgb(40,40,40);
+	background-color: transparent;
+	font-family:	Tahoma, Verdana;
+	font-size:		9pt;
+	font-weight:	normal;
+	border:	        solid 0px rgb(140,140,140);
+	margin:			0px;
+    padding:		4px 4px 4px 4px;
+    cursor:         default;
+}
+
+.FieldValDropdown2 {
+	position:			relative;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			9pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		1px;
+	margin:				0px;
+	padding:			2px 2px 1px 2px;
+}
+
+.FieldValDropdown2IE {
+	position:			relative;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			9pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		1px;
+	margin:				0px;
+	padding:			2px 2px 1px 2px;
+}
+
+/* Initial Layout */
+
+
+/*-----------------------------------------------------------------------
+ Layout for Company information.    
+-------------------------------------------------------------------------*/
+
+#EmpBox    {height:110px;}
+
+#EmpStatusMsg {left: 10px; top: 10px; width:500px; height: 30px;}
+
+#EmpBox .ActionBar {width:250px;}
+#EmpBox .ActionBar #ActionRefresh	{left:  0px;}
+#EmpBox .ActionBar #ActionCancel	{left: 85px;}
+#EmpBox .ActionBar #ActionEdit		{left:170px;}
+
+#EmpBox #CompanyHdr     {left: 10px; top: 40px; width:100px;}
+#EmpBox #Company		{left:120px; top: 40px; width:260px;}
+#EmpBox #LocationHdr	{left: 10px; top: 60px; width:100px;}
+#EmpBox #Location		{left:120px; top: 60px; width:260px;}
+#EmpBox #EmailHdr	    {left: 10px; top: 80px; width:100px;}
+#EmpBox #Email		    {left:120px; top: 80px; width:260px;}
+
+#EmpBox #PayMethodHdr   {left:440px; top: 40px; width:160px;}
+#EmpBox #PayMethod		{left:610px; top: 40px; width:260px;}
+#EmpBox #PayNumberHdr	{left:440px; top: 60px; width:160px;}
+#EmpBox #PayNumber		{left:610px; top: 60px; width:260px;}
+
+/*-----------------------------------------------------------------------
+ Layout for list of orders.    
+-------------------------------------------------------------------------*/
+
+#OrderBox  {height:300px;}
+
+#OrderStatusMsg {left: 10px; top: 10px; width:500px; height: 30px;}
+
+#OrderBox .StatusMsg {left: 25px; top: 45px; width:500px; height: 30px;}
+
+#OrderBox .ActionBar {width:400px;}
+#OrderBox .ActionBar #ActionNewOrder    {left:  0px;}
+#OrderBox .ActionBar #ActionRefresh	    {left: 85px;}
+#OrderBox .ActionBar #ActionSave	    {left:170px; width: 100px;}
+#OrderBox .ActionBar #ActionCancel	    {left:280px; width: 110px;}
+
+#OrderListViewPortHdr {width:870px;} 
+#OrderColHdr {width:2700px;}
+/*#ExamDatesColHdr #ExamTypeHdr	{left:  0px; width:100px;}*/
+
+#OrderColHdr #OrderEditHdr	    {width: 15px;}
+#OrderColHdr #OrderNumHdr	    {width:100px;}
+#OrderColHdr #CompanyHdr	    {width:120px;}
+#OrderColHdr #SiteHdr	        {width:120px;}
+#OrderColHdr #EmployeeNameHdr	{width:140px;} /* ??? */
+#OrderColHdr #OrderStatusHdr	{width:100px;}
+#OrderColHdr #AuthorizeDateHdr	{width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #SubmitDateHdr		{width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #ProcessDateHdr	{width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #ShipDateHdr	    {width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #DeliverDateHdr	{width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #HoldDateHdr	    {width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #CancelDateHdr	    {width: 80px; ttop: 0px; text-align: center;}
+#OrderColHdr #CloseDateHdr		{width: 90px; ttop: 0px; text-align: center;}
+#OrderColHdr #Custom1Hdr	    {width:150px; margin-left:10px;}
+#OrderColHdr #Custom2Hdr	    {width:150px; }
+#OrderColHdr #Custom3Hdr	    {width:150px; }
+#OrderColHdr #Custom4Hdr	    {width:150px; }
+#OrderColHdr #Custom5Hdr	    {width:150px; }
+
+#OrderListViewPort {width:870px;} 
+#OrderDataBox #DataItemBox {wwidth:100%;}
+
+
+
+
+

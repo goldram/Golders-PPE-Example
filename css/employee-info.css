@@ -1,0 +1,237 @@
+
+body {
+	background:	    transparent;
+	overflow:		visible;
+	padding:		0px;
+	margin:			0px;
+	height:         100%;
+	width:          100%;  
+	filter:         none;  
+}
+
+#EmailNote, #PasswordLink
+{
+	position:		relative;
+	color:			rgb(40,40,40);
+	font-family:	Tahoma, Verdana;
+	font-weight:	normal;
+	font-size:		10pt;
+	margin:         10px 5px 5px 20px;
+	padding:	    4px;
+	width:          90%;
+}
+
+
+/* Prevent webKit browsers from hightlighting form fields */
+*:focus {outline: none;} 
+
+#EmployeeBox  {
+    position:			relative;
+    display:            block;
+    overflow:			visible;
+	border:			    2px solid rgb(254, 233, 0); /* yellowish */
+	margin:				0px 0px 0px 0px;
+	padding:			10px 0px 10px 0px;
+	width:				800px;
+
+	border-radius:		    10px; /* CSS3 rounded corners (when available)*/
+	-moz-border-radius:	    10px; /* Firefox 3.5+ rounded corners */
+	-webkit-border-radius:	10px; /* Safari, Chrome rounded corners */
+	
+	box-shadow:	        0px 0px 20px rgba(120, 120, 120, 1); /* Firefox 3.5+ box shadow */
+	-moz-box-shadow:	0px 0px 20px rgba(120, 120, 120, 1); /* Firefox 3.5+ box shadow */
+	-webkit-box-shadow: 0px 0px 20px rgba(120, 120, 120, 1); /* Chrome/Safari box shadow */
+	
+	background:		-moz-linear-gradient(100% 100% 180deg, rgb(114,133,157), rgb(255,255,255));
+	background:		-webkit-gradient(linear, left bottom, right bottom,	color-stop(0.28, rgb(255,255,255)),	color-stop(0.87, rgb(114,133,157)));
+	filter:			progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#72859D');
+
+}
+
+#EmployeeBoxTitle 
+{
+	color:			rgb(40,40,40);
+	display:        block;
+	font-family:	Arial, Tahoma, Verdana;
+	font-weight:	bold;
+	font-size:		14pt;
+	margin:         20px 0px 10px 30px;
+}
+
+#EmployeeBox #ImageTop {
+    position: absolute;
+}
+
+/* NOTE: This is minor tweak to the class from the global.css */
+.FieldGroupBox .FieldGroupHdr  {
+	width:          98%;
+}
+
+.FieldCal2 {
+	position:			absolute;
+	margin:				0px;
+	padding:			0px;	
+	border:		        none 0px rgb(128,157,185);
+    width:				19px;
+    height:				17px;	
+    cursor:				pointer;
+}
+
+.FieldHdr {
+    position:			absolute;
+	color:			    rgb(0,0,0);
+    font-family:		Tahoma, Verdana, Lucida Sans, Arial;
+    font-weight:		normal;
+    font-size:			9pt;
+	border:		        solid 0px blue;
+    padding:		    4px 0px 4px 0px;
+    margin:				0px 0px 0px 0px;
+}
+
+.FieldHdr.Right {
+	text-align:         right;
+	width:              130px;
+}
+
+.FieldHdr2 {
+    position:			relative;
+	color:			    rgb(0,0,0);
+    font-family:		Tahoma, Verdana, Lucida Sans, Arial;
+    font-weight:		normal;
+    font-size:			9pt;
+	border:		        solid 0px blue;
+    padding:		    4px 0px 4px 0px;
+    margin:				0px 0px 0px 0px;
+}
+
+.FieldHdr2.Right {
+	display:            inline-block; /* allows the width property to take effect */
+	text-align:         right;
+	width:              130px;
+}
+
+.FieldValQty {
+	position:		relative;
+    color:			rgb(30,103,168);
+	font-family:	Verdana, Tahoma;
+	font-size:		9pt;
+	font-weight:	normal;
+	border:	        solid 1px rgb(140,140,140);
+	margin:			0px;
+    padding:		4px 4px 4px 4px;
+    cursor:         pointer;
+}
+
+.FieldVal2 {
+	position:		relative;
+	color:			rgb(40,40,40);
+    color:			rgb(30,103,168);
+	font-family:	Verdana, Tahoma;
+	font-size:		9pt;
+	font-weight:	normal;
+	border:	        solid 1px rgb(140,140,140);
+	margin:			0px;
+    padding:		2px 0px 3px 4px;
+    cursor:         pointer;
+}
+
+.FieldVal2.ReadOnly {
+	position:		relative;
+	color:			rgb(0,0,0);
+	background-color: transparent;
+	font-family:	Tahoma, Verdana;
+	font-size:		9pt;
+	font-weight:	normal;
+	border:	        solid 1px rgb(140,140,140);
+	margin:			0px;
+    padding:		2px 0px 3px 4px;
+    cursor:         default;
+}
+
+.FieldValDropdown2 {
+	position:			relative;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			9pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		1px;
+	margin:				0px;
+	padding:			2px 2px 1px 2px;
+}
+
+.FieldValDropdown2IE {
+	position:			relative;
+    color:				rgb(30,103,168);
+	font-family:		Tahoma, Verdana;
+	font-size:			9pt;
+	font-weight:		normal;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		1px;
+	margin:				0px;
+	padding:			2px 2px 1px 2px;
+}
+
+.FieldValDynamic {
+    position:			relative;
+    background:         transparent;
+    color:				rgb(0,0,255);
+    font-family:		Verdana, Tahoma;
+    font-size:			9pt;
+    font-weight:		normal;
+    padding:		    4px 4px 4px 4px;
+	cursor:				pointer;
+}
+
+.NoBorder {
+	border-width:	0px;
+}
+
+.EmployeeGroupBox  {
+    position:		relative;
+    overflow:		visible;
+    border:         solid 0px blue;
+    padding:        0px 0px 0px 0px;
+	margin:			30px 0px 0px 20px;
+	height:         auto;
+}
+
+.EmployeeGroupBox.Left  {
+    float:          left;
+}
+
+.EmployeeGroupBox.Right  {
+    float:          right;
+	margin:			30px 20px 0px 0px;
+}
+
+.EmployeeGroupBox.ClearFix  {
+    clear: both;
+}
+
+/* Initial Layout */
+
+#EmployeeBox {left: 20px; top: 20px; height:auto;}
+
+#EmployeeBox #EmployeeBoxTitle {width:400px;}
+
+#EmployeeBox #ImageTop {left: 350px; top: 5px;}
+
+#EmployeeBox .StatusMsg {left: 25px; top: 65px; width:500px; height: 30px;}
+
+#EmployeeBox .ActionBar {left: 10px; top:5px; width:180px;} 
+#EmployeeBox .ActionBar #ActionSubmit	{left:  0px;}
+#EmployeeBox .ActionBar #ActionCancel	{left:90px;}
+
+#GeneralFieldsGroupBox  {width:360px;}
+
+#ContactFieldsGroupBox {width:360px;}
+
+#PaymentFieldsGroupBox {width:360px;}
+
+#StatusFieldsGroupBox {width:360px;}
+
+  
+

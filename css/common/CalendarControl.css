@@ -1,0 +1,132 @@
+BODY {
+	overflow:		hidden;
+	font-family:	verdana;
+	margin:			0;
+	padding:		0;
+	border:			0;
+}
+
+#CalendarControlIFrame {
+	position:		absolute;
+	z-index:		99;
+	left:			0px;
+	top:			0px;
+	height:			250px;
+	width:			250px;
+}
+
+#CalendarControl {
+	position:		absolute;
+	z-index:		100;
+	display:		none;
+	overflow:		visible;
+	border:			none;
+	margin:			0;
+	padding:		0;
+}
+
+#CalendarControl table {
+	background:		transparent;
+	font-family:	arial, verdana, helvetica, sans-serif;
+	font-size:		8pt;
+	border:			none;
+}
+
+#CalendarControl th {
+	background:		transparent;
+	font-weight:	bold;
+	color:			GhostWhite;
+	color:			rgb(130,130,130);
+  
+}
+
+#CalendarControl th a {
+	background:		transparent;
+	font-weight:	normal;
+	color:			DodgerBlue; 
+	padding:		1px;
+	text-decoration:none;
+  
+}
+
+#CalendarControl td {
+	text-align:	center;
+}
+
+#CalendarControl .header {
+	background:	transparent;
+	
+}
+
+#CalendarControl .weekday {
+	background: transparent;
+	color:		black;
+}
+
+#CalendarControl .weekend {
+	background: transparent;
+	color:		black;
+  
+}
+
+#CalendarControl .current {
+	border:		0px solid DodgerBlue;
+	background: skyblue;
+	color:		#336699;
+}
+
+#CalendarControl .weekday,
+#CalendarControl .weekend,
+#CalendarControl .current {
+	display:	block;
+	border:		0px solid DodgerBlue;
+	text-decoration: none;
+	width:		2em;
+	cursor:		pointer;
+}
+
+#CalendarControl .weekday:hover,
+#CalendarControl .weekend:hover,
+#CalendarControl .current:hover {
+	background:	skyblue;
+	color:		black;
+	border:		0px solid #999;
+}
+
+#CalendarControl .previous {
+	text-align: left;
+}
+
+#CalendarControl .next {
+	text-align: right;
+}
+
+#CalendarControl .previous,
+#CalendarControl .next {
+	background: transparent;
+	padding:	1px 3px 1px 3px;
+
+
+}
+
+#CalendarControl .previous a,
+#CalendarControl .next a {
+	color:			rgb(130,130,130);
+	font-weight:	bold;
+	text-decoration: none;
+	cursor:			pointer;
+}
+
+#CalendarControl .title {
+	background:		transparent;
+	font-weight:	bold;
+	color:			rgb(130,130,130);
+	text-align:		center;
+
+}
+
+#CalendarControl .empty {
+	background:		transparent;
+	border:			0px solid DodgerBlue;
+  
+}

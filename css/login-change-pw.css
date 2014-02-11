@@ -1,0 +1,104 @@
+
+.FailureMsg
+{
+    color:			red;
+	font-family:	Tahoma, Verdana, Arial, ;
+	font-weight:	normal;
+	font-size:		10pt;
+	padding:	    0px;
+	margin:         20px 5px 10px 0px !Important;
+}
+
+.TitleText
+{
+    color:			rgb(72,46,34);
+	font-family:	Tahoma, Verdana, Arial;
+	font-weight:	normal;
+	font-size:		11pt;
+	padding:	    5px 5px 20px 0px !Important;
+	width:          100%;
+	margin:         5px 5px 20px 0px !Important;
+}
+
+.FieldHdr
+{
+    font-size:      8pt;
+    font-weight:    bold;
+    vertical-align: middle !Important;
+    padding-right:  20px !Important;
+}
+
+label
+{
+    font-size:      8pt;
+    font-weight:    bold;
+    vertical-align: middle !Important;
+    padding-right:  10px !Important;
+}
+
+input[type="text"], input[type="password"] {
+	color:			rgb(40,40,40);
+    color:			rgb(30,103,168);
+	font-family:	Tahoma, Verdana;
+	font-size:		10pt;
+	font-weight:	normal;
+	border-style:	solid;
+	border-width:	1px;
+	border-color:	rgb(30,103,168);
+	margin:			4px 0px 4px 0px;
+	padding:		4px 4px 4px 4px;
+	width:          200px;
+}
+
+input[type="submit"] {
+	margin:		    20px 5px 10px 5px !Important;
+	padding:		4px 4px 4px 4px;
+}
+
+#LoginBox
+{
+    position:		relative;
+    overflow:		visible;
+    z-index:		100;
+    background:		white;
+	border:		    solid 1px rgb(40,40,40);
+	padding:		5px 0px 10px 5px;
+	margin:			40px auto 100px auto;
+	
+	background:		-moz-linear-gradient(100% 100% 180deg, rgb(114,133,157), rgb(255,255,255));
+	background:		-webkit-gradient(linear, left bottom, right bottom,	color-stop(0.28, rgb(255,255,255)),	color-stop(0.87, rgb(114,133,157)));
+	filter:			progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#72859D');
+
+	border-radius:			.5em; /* CSS3 rounded corners (when available)*/
+	-moz-border-radius:		.5em; /* Firefox 3.5+ rounded corners */
+	-webkit-border-radius:	.5em; /* Safari, Chrome rounded corners */
+	
+	box-shadow:	0px 0px 3px 3px rgb(180,180,180); /* Firefox 3.5+ box shadow */
+	-moz-box-shadow:	0px 0px 3px 3px rgb(180,180,180); /* Firefox 3.5+ box shadow */
+	-webkit-box-shadow:	0px 0px 3px 3px rgb(180,180,180); /* Safari, Chrome box shadow */
+
+}
+
+.LoginBtn
+{
+    position:			absolute;
+    z-index:			101;
+}
+
+#LoginFields
+{
+    position:			absolute;
+    z-index:			101;
+    overflow:			visible;
+	border:		        none 0px rgb(200,200,200);
+	padding:			0px;
+	margin:				0px;
+}
+
+/* Initial Layout */
+
+#LoginBox		{width: 600px; height: 360px;}
+#LoginImg		{left:  5px; top:  0px; }
+#LoginFields	{left:115px; top: 10px; }
+
+

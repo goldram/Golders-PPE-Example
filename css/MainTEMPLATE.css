@@ -1,0 +1,317 @@
+BODY {
+	border-width:	0px;
+	padding:		0px;
+	margin:			0px;
+	overflow:		hidden;
+	font-family:	verdana;
+	background-color: white;
+}
+
+IMG {
+    position:		absolute;
+	border-width:	0px;
+	padding:		0px;
+	margin:			0px;
+}
+
+LABEL {
+    position:		absolute;
+    color:			black;
+    font-family:	tahoma, verdana;
+    font-size:		8px;
+    padding-top:	3px;
+    margin:			0px;
+    text-align:		left;
+}
+
+.BannerPic {
+    position:		absolute;
+    z-index:		-2;
+}
+
+#CartPopup {
+    position:		absolute;
+    z-index:		50000;
+    visibility:		hidden;
+	background-color: white;
+	border-style:   none;
+	border-color:	blue;	
+	border-width:   0px;
+}
+
+#ContentBox {
+    position:		absolute;
+    z-index:		-10;
+    overflow:		hidden;
+    background:		transparent;
+	border-style:   solid;
+	border-color:	rgb(190,134,231);	
+	border-color:	rgb(230,233,233);
+	border-width:   0px;
+	border-right-width: 2px;
+}
+
+#ContentFrame {
+    position:		absolute;
+    z-index:		-10;
+    overflow:		hidden;
+    background:		transparent;
+}
+
+#CompanyLogo {
+    position:		absolute;
+    z-index:		-2;
+}
+
+#ImageStaging {
+    position:		absolute;
+    visibility:		hidden;
+}
+
+#Menu {
+    position:		absolute;
+    z-index:		10;
+    display:		none;
+}
+
+#MenuBar {
+    position:		absolute;
+    visibility:		visible;
+    background:		rgb(122,124,186);
+    background:		rgb(190,134,231);
+}
+
+#MenuBarLine {
+    position:		absolute;
+    overflow:		hidden;
+    background:		rgb(122,124,186);
+    background:		rgb(190,134,231);
+}
+
+.MenuBarItem {
+	position:		absolute;
+    padding:		0px;
+    font-family:	Tahoma, Verdana;
+    font-weight:	bold;
+    font-size:		8pt;
+    margin:			0px;
+    color:			white;
+    cursor:			pointer;
+}
+
+.MenuBarSeparator {
+	position:		absolute;
+    background:		white;
+    font-family:	Tahoma, Verdana;
+    font-weight:	bold;
+    font-size:		8pt;
+    width:			1px;
+    top:			8px;
+    height:			6px;
+}
+
+.MenuItem {
+    padding:		0px;
+    color:			red;
+    font-weight:	bold;
+    font-size:		11px;
+    margin:			0px;
+    cursor:			pointer;
+}
+
+#StatusMsg {
+    position:		absolute;
+    visibility:		hidden;
+    z-index:		9999;
+    color:			red;
+    margin:			0px;
+    background:		transparent;
+    padding:		3px;
+    font-weight:	bold;
+    font-size:		11px;
+}
+
+#UserName {
+    position:		absolute;
+    z-index:		200;
+    color:			white;
+    font-weight:	normal;
+    font-size:		10px;
+    text-align:		right;
+}
+
+#SlideShowBox {
+    position:		absolute;
+    z-index:		50000;
+    visibility:		hidden;
+    display:		none;
+}
+
+#PicPopup {
+    position:		absolute;
+    z-index:		50000;
+    visibility:		hidden;
+    dddddddddddddddisplay:		none;
+	background-color: white;
+	border-style:   solid;
+	border-color:	rgb(0,140,130);	
+	border-width:   1px;
+}
+
+#PicPopupTitle {
+    position:		absolute;
+    z-index:		200;
+    color:			rgb(201,201,201);
+    font-family:	Tahoma, Verdana;
+    font-weight:	bold;
+    font-size:		8pt;
+}
+
+#PicPopupLoad {
+    position:		absolute;
+    z-index:		200;
+    color:			rgb(190,134,231);
+    font-family:	Tahoma, Verdana;
+    font-weight:	bold;
+    font-size:		8pt;
+}
+
+#PicPopupImage {
+    position:		absolute;
+    z-index:		300;
+}
+
+#PricePopup {
+    position:		absolute;
+    z-index:		50000;
+    visibility:		hidden;
+	background-color: white;
+	border-style:   solid;
+	border-color:	rgb(0,140,130);	
+	border-width:   2px;
+}
+
+#PricePopupTitle {
+    position:		absolute;
+    z-index:		200;
+    color:			rgb(152,152,152);
+    font-family:	Tahoma, Verdana;
+    font-weight:	bold;
+    font-size:		10pt;
+}
+
+#PricePopupClose {
+    position:		absolute;
+    z-index:		200;
+    cursor:			pointer;
+}
+
+#PriceList {
+    position:		absolute;
+	background:		transparent;
+	border-style:   none;
+}
+
+.PriceItem {
+    position:		absolute;
+    color:			rgb(127,127,127);
+    font-family:	Tahoma, Verdana;
+    font-weight:	normal;
+    font-size:		8pt;
+}
+
+.PriceAction {
+    position:		absolute;
+    color:			blue;
+    font-family:	Tahoma, Verdana;
+    font-weight:	normal;
+    font-size:		8pt;
+    cursor:			pointer;
+}
+
+#MenuCartHdr {
+	position:		absolute;
+    z-index:		10;
+    color:			white;
+    font-family:	Tahoma, Verdana;
+    font-weight:	bold;
+    font-size:		8pt;
+    margin:			0px;
+    padding:		0px;
+    cursor:			pointer;
+}
+
+#MenuCartItems {
+	position:		absolute;
+    z-index:		10;
+    color:			white;
+    font-family:	Tahoma, Verdana;
+    font-weight:	normal;
+    font-size:		8pt;
+    margin:			0px;
+    padding:		0px;
+    text-align:		right;
+    cursor:			pointer;
+}
+
+#MenuCartImage {
+    position:		absolute;
+    z-index:		10;
+    cursor:			pointer;
+}
+
+#CompanyLogo	{left:   6px; top: 6px;}
+#BannerPic1		{left: 285px; top: 6px;}
+#BannerPic2		{left: 530px; top: 6px;}
+#BannerPic3		{left: 775px; top: 6px;}
+
+#MenuBar		{left: 6px; top: 192px; width: 1009px; height: 32px;}
+#MenuBarLine	{left: 6px; top: 226px; width: 1009px; height: 2px;}
+
+#MenuCartItems	{left: 815px; top: 200px; width: 60px;}
+#MenuCartImage	{left: 880px; top: 196px;}
+#MenuCartHdr	{left: 910px; top: 200px; width: 100px;}
+
+
+/***DAN*** Firefox does not support expressions in CSS
+
+#UserName		{left: expression(parseInt(body.offsetWidth) - 230); width: 200px; 
+				 top: expression(parseInt(MenuBar.offsetTop) + 6);}
+
+#ContentBox		{left: 6px; top: 230px; width: 1009px; 
+			     height: expression(parseInt(body.offsetHeight)- 230);}
+
+#ContentFrame	{left: 0px; top: 0px; width: 1007px; 
+			     height: expression(parseInt(ContentBox.offsetHeight) - 0);}
+
+#SlideShowBox	{left: 100px; top: 100px; 
+				 width: 800px; 
+			     height: expression(parseInt(body.offsetHeight)- 200);}
+
+#SlideShowFrame	{left: 0px; top: 0px; width: 800px; 
+			     height: expression(parseInt(SlideShowBox.offsetHeight) - 0);}
+
+*******/
+
+
+#UserName		{left: 780px; top: 198px; width: 200px; }
+#ContentBox		{left:   6px; top: 230px; width:1009px; height: 700px;}
+#ContentFrame	{left:   0px; top:   0px; width:1007px; height: 700px;}
+
+#SlideShowBox	{left: 100px; top: 100px; width: 800px; height: 600px;}
+#SlideShowFrame	{left:   0px; top:   0px; width: 800px; height: 600px;}
+
+#PicPopup		{left: 100px; top: 100px; width: 400px; height: 200px;}
+#PicPopupTitle	{left: +10px; top:  +6px; width: 200px;}
+#PicPopupLoad	{left: +18px; top: +32px; width: 100px;}
+#PicPopupImage	{left: +16px; top: +30px;}
+#ImageStaging	{left: +0px;  top: +0px;}
+
+#PricePopup		 {left:   0px; top: 0px; width: 400px; height: 350px;}
+#PricePopupClose {left:+350px; top: +4px;}
+#PricePopupTitle {left: +15px; top: +26px; width: 370px;}
+#PriceList		 {left: +15px; top: +46px; width: 380px;}
+
+#CartPopup		 {left:+100px; top:220px; width: 740px; height: 370px;}
+			     			   
+#StatusMsg		 {left: 10px; top: 180px;}

@@ -1,0 +1,1127 @@
+body
+{
+	bbbbbackground:		rgb(0,53,107) url(../img/bg.png) repeat-x;
+	overflow:		visible;
+	padding:		0px;
+	margin:			0px;
+	width:			100%;
+	height:			100%;
+    background: rgb(133,171,212); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(133,171,212) 0%, rgb(125,164,205) 10%, rgb(114,153,195) 20%, rgb(85,124,167) 41%, rgb(84,118,161) 45%, rgb(70,102,145) 58%, rgb(68,95,137) 65%, rgb(66,93,136) 65%, rgb(64,80,120) 84%, rgb(64,80,119) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(133,171,212)), color-stop(10%,rgb(125,164,205)), color-stop(20%,rgb(114,153,195)), color-stop(41%,rgb(85,124,167)), color-stop(45%,rgb(84,118,161)), color-stop(58%,rgb(70,102,145)), color-stop(65%,rgb(68,95,137)), color-stop(65%,rgb(66,93,136)), color-stop(84%,rgb(64,80,120)), color-stop(100%,rgb(64,80,119))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgb(133,171,212) 0%,rgb(125,164,205) 10%,rgb(114,153,195) 20%,rgb(85,124,167) 41%,rgb(84,118,161) 45%,rgb(70,102,145) 58%,rgb(68,95,137) 65%,rgb(66,93,136) 65%,rgb(64,80,120) 84%,rgb(64,80,119) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgb(133,171,212) 0%,rgb(125,164,205) 10%,rgb(114,153,195) 20%,rgb(85,124,167) 41%,rgb(84,118,161) 45%,rgb(70,102,145) 58%,rgb(68,95,137) 65%,rgb(66,93,136) 65%,rgb(64,80,120) 84%,rgb(64,80,119) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgb(133,171,212) 0%,rgb(125,164,205) 10%,rgb(114,153,195) 20%,rgb(85,124,167) 41%,rgb(84,118,161) 45%,rgb(70,102,145) 58%,rgb(68,95,137) 65%,rgb(66,93,136) 65%,rgb(64,80,120) 84%,rgb(64,80,119) 100%); /* IE10+ */
+    background: linear-gradient(top,  rgb(133,171,212) 0%,rgb(125,164,205) 10%,rgb(114,153,195) 20%,rgb(85,124,167) 41%,rgb(84,118,161) 45%,rgb(70,102,145) 58%,rgb(68,95,137) 65%,rgb(66,93,136) 65%,rgb(64,80,120) 84%,rgb(64,80,119) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85abd4', endColorstr='#405077',GradientType=0 ); /* IE6-9 */
+}
+
+/* hack to hide vertical scrollbar in IE */
+hhhhhhtml 
+{
+	overflow-X:		hidden;
+	overflow-Y:		hidden;
+}
+
+a {
+	text-decoration:none;	/* prevent underlined links */
+	outline:		0;		/* prevent focus rectangle */
+}
+
+.hide {
+	visibility:		hidden;
+}
+
+.Box  {
+    position:		absolute;
+    overflow:		auto;
+	background-color:olive;
+	background:		rgb(255,255,255);
+	border-style:	solid;
+	border-color:	rgb(200,200,200);
+	border-width:	1px;
+    fffilter:		progid:DXImageTransform.Microsoft.Gradient(startColorstr=#ffffff, endColorstr=#e8e8e8, gradientType='1');
+}
+
+.BoxRndCorners  
+{
+	border-radius:			.5em; /* rounded corners - when available in CSS3 */
+	-moz-border-radius:		.5em; /* rounded corners - Firefox 3.5+   */
+	-webkit-border-radius:	.5em; /* rounded corners - Safari, Chrome */
+}
+
+.BoxShadow  
+{
+	box-shadow:	        5px 5px 5px rgb(90,90,90); /* box shadow - when available in CSS3 */
+	-moz-box-shadow:	5px 5px 5px rgb(90,90,90); /* box shadow - Firefox 3.5+ */
+	-webkit-box-shadow:	5px 5px 5px rgb(90,90,90); /* box shadow - Chrome, Safari */
+}
+
+.ActionBar  
+{
+    position:			relative;
+    display:            inline;
+    overflow:			visible;
+    float:				right;
+    z-index:			1;
+	background:			transparent;
+	border:		        none 1px red;
+	margin:				0px 20px 5px 10px;
+	height:				25px;
+}
+
+.ActionBar .NoFloat 
+{
+    float: none;
+    border-color:Red;
+}
+
+.ActionBar a {
+	position:			absolute;
+	color:				blue;
+	font-family:		Tahoma, Verdana, Arial;
+	font-size:			8pt;
+	font-weight:		bold;
+	padding:			4px 0px 0px 0px;
+	margin:				0px;
+	border-style:		solid;
+	border-width:		1px;
+	border-color:		rgb(200,200,200);
+	cursor:				pointer;
+	text-align:			center;
+	outline:			0; /* prevent focus rectangle */
+	top:				0px;
+	width:				75px;
+	height:				20px;
+	
+	
+	border-radius:			.5em; /* CSS3 rounded corners (when available)*/
+	-moz-border-radius:		.5em; /* Firefox 3.5+ rounded corners */
+	-webkit-border-radius:	.5em; /* Safari, Chrome rounded corners */
+  
+	filter:				progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFF', EndColorStr='#DDDDDD');
+	background:			-moz-linear-gradient(100% 100% 90deg, rgb(230,230,230), rgb(255,255,255));
+	background:			-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255,255,255)), to(rgb(230,230,230)));
+}
+
+
+.ActionBar a:hover
+{
+	cursor:				pointer;
+	text-align:			center;
+	cccolor:	    #FFFF00;
+	 
+	outline:	    0; /* prevent focus rectangle */
+	
+	filter:         progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFF', EndColorStr='#FFFF00');
+	background:     -moz-linear-gradient(100% 100% 90deg, yellow, rgb(255,255,255));
+	background:		-webkit-gradient(linear, 0% 0%, 0% 100%, from(yellow), to(rgb(230,230,230)));
+}
+
+.ActionBar a.Basic {
+	position:			absolute;
+	color:				rgb(100,100,100);
+	font-family:		Tahoma, Arial, Verdana;
+	font-size:			14px;
+	font-weight:		bold;
+	padding:            0px;
+	border:             1px solid transparent;
+	filter: none;
+	background: transparent;
+}
+
+.ActionBar a.Basic:hover {
+	color:				rgb(50,50,50);
+	padding:            0px;
+	border:             1px solid transparent;
+	filter: none;
+	background: transparent;
+}
+
+#CalendarPopup {
+	position:		absolute;
+	visibility:		hidden;
+	display:		none;
+	z-Index:		1000;
+	background:		rgb(230,230,230);
+    border:			solid 1px rgb(149,193,235);
+	
+	/* Rounded Corners */
+	border-radius:			1px; /* CSS3 (when available)*/
+	-moz-border-radius:		1em; /* Firefox 3.5+         */
+	-webkit-border-radius:	1em; /* Safari, Chrome       */
+	
+	/* Box Shadow */
+	-moz-box-shadow: 5px 5px 5px rgb(120,120,120);
+
+	/* Gradient background */
+	filter:	progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFF', EndColorStr='#DDDDDD');
+	background: -moz-linear-gradient(100% 100% 90deg,rgb(230,230,230),rgb(245,245,245));
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(230,230,230)), to(rgb(245,245,245)));
+
+}
+
+#ContentBox  
+{
+    position:		relative;
+    z-index:		50;
+    overflow:		auto; /* Need this to get the this div to automatically expand to max height */
+	background:		rgb(255,255,255);
+	padding:		0px;
+	margin:			0px;
+	border:			none 0px red;
+	top:			0px; /* initial position; may change after page is loaded in browser */
+	margin-left:	auto;
+	margin-right:	auto;
+	margin-bottom:  30px;
+	width:			980px; 
+	hhhheight:		192px;
+		
+	box-shadow:			0px 0px 5px 5px rgb(90,90,90);	/* box shaddow - when available in CSS3 */
+	-moz-box-shadow:	0px 0px 5px 5px rgb(90,90,90);	/* box shadow - Mozilla */
+	-webkit-box-shadow: 0px 0px 5px 5px rgb(90,90,90);	/* box shadow - Safari, Chrome */
+    
+    /*
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+	*/
+	
+    fffilter:		progid:DXImageTransform.Microsoft.Gradient(startColorstr=#ffffff, endColorstr=#e8e8e8, gradientType='1');
+}
+
+#ContentBox #LeftCol
+{
+    float:          left;
+    z-index:        -1;
+    /*overflow:		hidden;*/
+    overflow:		visible;
+	background:		rgb(255,255,255);
+	border:			none 0px green;
+	padding:		0px;
+	margin:			0px;
+	margin-left:	5px;
+	top:			200px;
+	width:			60%; 
+	/*height:			400px;*/
+}
+
+#ContentBox #RightCol
+{
+    float:          right;
+    z-index:		2;
+    overflow:		hidden;
+	background:		rgb(255,255,255);
+	border:			none 0px green;
+	padding:		0px;
+	margin:			0px;
+	top:			200px;
+	left:			820px;
+	width:			30%; 
+	height:			400px;
+}
+
+#ContentBox h1
+{
+	position:		relative;
+	display:		block;
+	color:			rgb(53,53,53);
+	font-family:	Helvetica, Sans-Serif, Verdana;
+	font-weight:	bold;
+	font-size:		16pt;
+	padding:		0px;
+	margin:			10px 5px 10px 10px;
+}
+
+#ContentBox p
+{
+	font-family:	Lucida Sans, Helvetica, Sans-Serif, Verdana;
+	font-style:		normal;
+	font-size:		9pt;
+	color:			rgb(53,53,53);
+	border:			none 0px;
+	margin:			10px 10px 5px 15px;
+}
+
+#ContentBox p.quote
+{
+	font-size:		8pt;
+	margin:			20px 8px 20px 8px;
+}
+
+.DataGroupBox  {
+    position:			relative;
+    overflow:			auto;
+	background:			transparent;
+	border:             none 0px green;
+	margin:				40px 20px 5px 30px;
+	width:              90%;
+}
+
+.DataGroupBox .Action {
+	position:			relative;
+	color:				blue;
+	font-family:		Verdana,Tahoma;
+	font-size:			8pt;
+	font-weight:		normal;
+	padding:			0px;
+	cursor:				pointer;
+}
+
+.DataGroupBox .Action:hover {
+	color:				orange;
+}
+
+.DataGroupBox .DataGroupHdr 
+{
+	position:			relative;
+	display:			block;
+	color:				rgb(100,100,100);
+	font-family:		Verdana, Arial, Tahoma;
+	font-weight:		bold;
+	font-size:			14pt;
+	padding:			0px;
+	margin-left:		0px;
+	margin-top:			12px;
+	margin-bottom:		5px;
+}
+
+.DataGroupBox .DataGroupHdr2 
+{
+	position:			relative;
+	display:			inline;
+	color:				rgb(100,100,100);
+	font-family:		Verdana, Arial, Tahoma;
+	font-weight:		bold;
+	font-size:			14pt;
+    border:             solid 0px red;
+	padding:			10px;
+	margin:             10px 0px 0px 0px;
+	height:             20px;
+}
+
+.DataGroupBox .DataGroupHdr3 
+{
+	position:			relative;
+	display:			inline;
+	color:				gb(100,100,100);
+	font-family:		Verdana, Arial, Tahoma;
+	font-weight:		bold;
+	font-size:			12pt;
+	padding:			10px;
+	margin:             20px 0px 0px 0px;
+	height:             20px;
+}
+
+.DataGroupChoices
+{
+	position:			relative;
+	display:			block;
+	color:				green;
+	color:				rgb(100,100,100);
+	font-family:		Verdana, Arial, Tahoma;
+	font-weight:		bold;
+	font-size:			9pt;
+	padding:			0px 0px 0px 10px;
+	margin-left:		0px;
+	margin-top:			12px;
+	margin-bottom:		5px;
+}
+
+.DataGroupBox .DataGroupHdrNote 
+{
+	position:			relative;
+	display:			block;
+	color:				rgb(100,100,100);
+	color:				green;
+	font-family:		Verdana, Arial, Tahoma;
+	font-weight:		normal;
+	font-size:			10pt;
+	padding:			0px 0px 0px 10px;
+	margin-left:		0px;
+	margin-top:			12px;
+	margin-bottom:		5px;
+}
+
+.DataGroupBox .DataColHdr  
+{
+    position:           relative;
+    overflow:           visible;
+    z-index:			1;
+	background:			transparent;
+    border:             solid 0px green;
+	padding:			0px;
+	margin:				20px 0px 0px 20px;
+	height:				30px;
+}
+
+.DataGroupBox .ViewPortHdr  {
+    position:			relative;
+    overflow:			hidden;
+	background:			transparent;
+	border:             solid 0px rgb(60,60,60);
+	margin:				20px 0px 0px 20px;
+}
+
+.DataGroupBox .ViewPortHdr .DataColHdr  
+{
+    position:           relative;
+    overflow:           visible;
+    z-index:			1;
+	background:			transparent;
+    border:             solid 0px green;
+	padding:			0px;
+	margin:				0px 0px 0px 0px;
+	height:				30px;
+}
+
+.DataColHdr label {
+	position:			relative;
+	float:              left;
+	color:			    rgb(100,100,100);
+	font-family:		Tahoma, Verdana, Arial;
+	font-size:			8pt;
+	font-weight:		bold;
+    border:             solid 0px rgb(40,40,40);
+	padding:			0px 2px 0px 4px;
+	margin:				0px;
+	vertical-align:		bottom;
+	top: 13px;
+}
+
+.DataGroupBox .DataBox {
+    position:			relative;
+    overflow:			visible;
+	background:			transparent;
+    border:             solid 1px green;
+	margin:				0px 0px 5px 20px;
+	padding:            0px;
+}
+
+.DataGroupBox .ViewPort  {
+    position:			relative;
+    overflow:			auto;
+	background:			transparent;
+	border:             solid 1px rgb(100,100,100);
+	margin:				0px 0px 5px 20px;
+}
+
+.DataGroupBox .ViewPort .DataBox {
+    position:			relative;
+    overflow:			visible;
+	background:			transparent;
+    border:             solid 0px green;
+	margin:				0px 0px 5px 0px;
+	padding:            0px;
+}
+
+.DataGroupBox .DataBoxxxxxx {
+    position:			relative;
+    overflow:			visible;
+	background:			transparent;
+    border:             solid 0px green;
+	margin:				0px 0px 5px 20px;
+	padding:0px;
+}
+
+.DataGroupBox .DataBox .Row  
+{
+    position:		relative;
+    overflow:		visible;
+    border:         solid 0px blue;
+	padding:		0px;
+	margin:			0px;
+	wwwwidth:			100%;
+	height:			20px;
+
+}
+
+.DataBox .Row img {
+	position:			absolute;
+    background:			rgb(240,240,240);
+    bbbackground:		    transparent;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		1px 0px 1px 1px;
+	margin:				0px;
+	padding:			0px;
+	width:              20px;
+	height:             19px;
+	top:                0px;
+	left:               0px;
+	cursor:				pointer;
+} 
+
+.DataGroupBox .DataFieldBox {
+    position:			relative;
+    overflow:			auto;
+	background:			transparent;
+	border-style:		solid;
+	border-color:		red;
+	border-width:		1px;
+	margin:				0px 0px 5px 5px;
+}
+
+.DataGroupBox.Popup {
+    position:			absolute;
+    visibility:			hidden;
+    display:            none;
+    overflow:			hidden;
+    z-index:            -10000;
+	font-family:		Verdana;
+	/*border:		        1px solid #F36B22; */ /* orangish */
+	border:			    2px solid rgb(254, 233, 0); /* yellowish */
+
+	padding:			2px;
+	margin:				auto;
+	
+	background:		    rgb(255,255,255);  /* rgb(21,53,93) dark blue */
+	
+	background:			-moz-linear-gradient(100% 100% 180deg, rgb(114,133,157), rgb(255,255,255));
+	background:			-webkit-gradient(linear, left bottom, right bottom,	color-stop(0.28, rgb(255,255,255)),	color-stop(0.87, rgb(114,133,157)));
+	filter:				progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#72859D');
+	/*
+	background:			-moz-linear-gradient(100% 100% 180deg, rgb(213,198,154), rgb(255,255,255));
+	background:			-webkit-gradient(linear, left bottom, right bottom,	color-stop(0.28, rgb(255,255,255)),	color-stop(0.87, rgb(213,198,154)));
+	filter:				progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#D5C69A');
+    */
+
+	border-radius:		    10px; /* CSS3 rounded corners (when available)*/
+	-moz-border-radius:	    10px; /* Firefox 3.5+ rounded corners */
+	-webkit-border-radius:	10px; /* Safari, Chrome rounded corners */
+	
+	box-shadow:	        0px 0px 20px rgba(120, 120, 120, 1); /* Firefox 3.5+ box shadow */
+	-moz-box-shadow:	0px 0px 20px rgba(120, 120, 120, 1); /* Firefox 3.5+ box shadow */
+	-webkit-box-shadow: 0px 0px 20px rgba(120, 120, 120, 1); /* Chrome/Safari box shadow */
+}
+
+.DataGroupBox.Popup .PopupHdr
+{
+	position:		relative;
+	color:			rgb(40,40,40);
+	font-family:	Arial, Tahoma, Verdana;
+	font-weight:	bold;
+	font-size:		14pt;
+	padding:		0px;
+	margin:	        0px 0px 0px 20px;
+	top:            15px;
+	
+    -moz-font-smoothing:    antialiased !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-text-shadow:       1px 1px 1px rgba(0,0,0,0.004);
+    -webkit-text-shadow:    1px 1px 1px rgba(0,0,0,0.004);
+}
+
+.DataGroupBox .FieldGroupBox  {
+    position:		relative;
+    overflow:		hidden;
+    z-index:        2;
+    border:         solid 1px rgb(40,40,40);
+    padding:        0px 0px 0px 0px;
+	margin:			0px 0px 30px 10px;
+	height:         auto;
+	
+	/*background:	rgb(233,231,233) url(../img/AllocEditBg.jpg) repeat-y; */  
+	background:		-moz-linear-gradient(100% 100% 180deg, rgb(114,133,157), rgb(255,255,255));
+	background:		-webkit-gradient(linear, left bottom, right bottom,	color-stop(0.28, rgb(255,255,255)),	color-stop(0.87, rgb(114,133,157)));
+	filter:			progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#72859D');
+	
+	/* Rounded Corners hacks */
+	/* border-radius: 1px; CSS3 (when available)*/
+	-moz-border-radius:     .5em; /* Firefox 3.5*/
+	-webkit-border-radius:  .5em; /* Safari, Chrome */
+}
+
+#EmployeePopup, #NewEmployeePopup, #CurrentSizesPopup {
+	position:			absolute;
+	visibility:			hidden;
+	display:			none;
+	z-index:			5000;
+	background:			transparent;
+	border-style:		none;
+
+}
+
+.FieldGroupBox .FieldGroupHdr  {
+    position:		relative;
+    display:        inline-block;
+    z-index:        1;
+    overflow:		hidden;
+	color:			rgb(40,40,40);
+	font-family:	Tahoma, Verdana, Arial;
+	font-size:		10pt;
+	font-weight:	bold;
+	background:		white;
+	border:         solid 0px rgb(40,40,40);
+	border-width:   0px 0px 1px 0px;
+	margin:			0px 0px 0px 0px;
+	padding:        4px 0px 0px 6px;
+	height:         22px;
+	left:           0px;
+	width:          98.5%;
+	
+	/* Rounded Corners hacks */
+	/* border-radius: 1px; CSS3 (when available)*/
+	-moz-border-radius:     .5em .5em .0em .0em; /* Firefox 3.5*/
+	-webkit-border-radius:  .5em .5em .0em .0em; /* Safari, Chrome */
+	
+	/*
+	bbackground:		-moz-linear-gradient(100% 100% 180deg, rgb(213,198,154), rgb(255,255,255));
+	bbackground:		-webkit-gradient(linear, left bottom, right bottom,	color-stop(0.28, rgb(255,255,255)),	color-stop(0.87, rgb(213,198,154)));
+	bfilter:			progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#D5C69A');
+    */
+    background: rgb(114,133,157); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q1YzY5YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top, rgb(114,133,157) 0%, rgb(255,255,255) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(114,133,157)), color-stop(100%,rgb(255,255,255))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgb(114,133,157) 0%,rgb(255,255,255) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgb(114,133,157) 0%,rgb(255,255,255) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgb(114,133,157) 0%,rgb(255,255,255) 100%); /* IE10+ */
+    background: linear-gradient(top, rgb(114,133,157) 0%,rgb(255,255,255) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#72859D', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+}
+
+.FieldGroupBox .FieldGroup  {
+    position:		relative;
+    overflow:		auto;
+    background:     rgb(173,184,198);
+	border:         solid 0px orange;
+	margin:			0px 0px 0px 0px;
+	padding:        5px 0px 10px 0px;
+	width:          100%;
+	left:           0px;
+	height:         auto;
+	
+	/* Rounded Corners hacks */
+	/* border-radius: 1px; CSS3 (when available)*/
+	-moz-border-radius:     .0em .0em .5em .5em; /* Firefox 3.5*/
+	-webkit-border-radius:  .0em .0em .5em .5em; /* Safari, Chrome */
+}
+
+.FieldGroupBox .FieldGroup .FieldWrapper  {
+    position:		relative;
+    overflow:       hidden;
+	border:         solid 0px green;
+    width:          95%;
+    height:         auto;
+}
+
+.FieldGroupBox .FieldGroup .FieldWrapper.NewGroup  {
+	margin:			8px 0px 0px 0px;
+}
+
+.FilterBar  {
+    position:		relative;
+    overflow:		hidden;
+    border:         solid 0px rgb(40,40,40);
+    padding:        0px 0px 0px 0px;
+	margin:			35px 0px 0px 25px;
+	height:         auto;
+}
+
+/* 
+Note: Had to change this from relative to absolute positioning due to issues with an odd character 
+that is prefixed to the header content when using the "Response.WriteFile(header.inc)" method for including 
+the header HTML. Very odd. Will have to resolve this later when time permits.
+*/
+#HdrBox  
+{
+    position:		relative; 
+    z-index:		50;
+    overflow:		visible;
+	background:	    rgb(21,53,93);
+	/*background:		#000000 url(../img/hdr-bg.png) no-repeat left top;  */
+	padding:		0px;
+	margin:			0px;
+	border-style:	none;
+	border-color:	green;
+	border-width:	0px;
+	left:			0px;  
+	top:			-25px; 
+	width:			980px;
+	min-width:      980px;
+	height:			263px;
+}
+
+#HdrBox #HdrImages 
+{
+    position:		relative;
+    display:		block;
+    overflow:		hidden;
+    z-index:		1;
+	background:		inherit;    
+	border:	        solid 0px red;
+	padding:		0px;
+	margin:			0px auto 0px auto;
+	top:			0px;
+	width:			100%;
+	min-width:      100%; 
+	height:			210px;
+}
+
+#HdrImages #HdrImageLeft 
+{
+    float:left;
+    z-index:		21;
+	border:         solid 0px red;
+	padding:		0px;
+	margin:			50px 0px 0px 80px;
+	top:			20px;
+}
+
+#HdrImages #HdrImageCenter 
+{
+    float:left;
+	border:         solid 0px yellow;
+	padding:		0px;
+	margin:			20px 0px 0px 110px;
+	width:          340px;
+}
+
+#HdrImages #HdrImageRight 
+{
+    float:left;
+    z-index:		20;
+	border:         solid 0px yellow;
+	padding:		0px;
+	margin:			70px 0px 0px 70px;
+	top:			20px;
+}
+
+
+
+#HdrActionBar  
+{
+    position:		relative;
+    display:        block;
+    overflow:		visible;
+    z-index:		20;
+	background:		inherit;  
+	border:	        solid 0px rgb(245,247,28);
+	border-top-width: 1px;
+	padding:	    0px 0px 0px 10px;
+	height:			15px;
+	width:          90%;
+	margin: 10px auto 10px auto;
+}
+
+#HdrActionBar .Left  
+{
+    float:left;
+    margin-left: 10px;
+}
+
+#HdrActionBar .Left.First  
+{
+    margin-left: 0px;
+}
+
+#HdrActionBar .Right 
+{
+    float:right;
+    margin-right: 10px;
+    wwidth:	    80px;
+	lleft:	    320px;
+}
+
+#HdrActionBar a {
+	position:		relative;
+	color:			rgb(255,247,28);
+	font-family:	Tahoma, Verdana, Arial;
+	font-size:		10pt;
+	font-weight:	bold;
+	border:	        solid 1px transparent;
+	margin:			0px 0px 0px 0px;
+	padding:	    5px 15px 5px 4px;
+	outline:		0; /* prevent focus rectangle */
+	cursor:			pointer;
+}
+
+#HdrActionBar a:hover {
+	color:			rgb(255,255,255);
+}
+
+#HdrActionBar a.LastItem {
+	margin-left:	140px;
+	border-width:	0px;
+}
+
+#HdrActionBar .HdrSeparator {
+	position:		relative;
+	color:			rgb(0,53,107);
+	color:			rgb(72,46,34);
+	font-family:	Tahoma, Verdana, Arial;
+	font-size:		11pt;
+	font-weight:	normal;
+	padding-left:	5px;
+	padding-right:	5px;
+	margin:			0px;
+	margin-right:	0px;
+	border-style:	none;
+	border-width:	0px 0px 0px 0px;
+	border-color:	#cccccc;
+	outline:		0; /* prevent focus rectangle */
+	/*cursor:			pointer;*/
+}
+
+.HdrMenu  
+{
+    position:		absolute;
+    visibility:     visible;
+    overflow:       hidden;
+    z-index:		20000;
+    background:     rgb(21,53,93); 
+	border:	        solid 1px rgb(100,100,100);
+	padding:		0px 4px 0px 0px;
+	margin:		    0px 0px 0px 0px;
+	height:			auto;
+	width:          auto;
+	
+	border-radius:			0em 0em .3em .3em; /* CSS3 rounded corners (when available)*/
+	-moz-border-radius:		0em 0em .3em .3em; /* Firefox 3.5+ rounded corners */
+	-webkit-border-radius:	0em 0em .3em .3em; /* Safari, Chrome rounded corners */
+}
+
+.HdrMenu a {
+	position:			relative;
+	display:            inline-block;
+	color:			    rgb(255,247,28);
+	font-family:		Tahoma, Verdana, Arial;
+	font-size:			8pt;
+	font-weight:		bold;
+	padding:			5px 0px 0px 3px;
+	margin:				0px 0px 0px 5px;
+	border:		        solid 0px rgb(200,200,200);
+	text-align:         left;
+	outline:			0; /* prevent focus rectangle */
+	top:				0px;
+	width:				100%;
+	height:				25px;
+	cursor:				pointer;
+  
+    background:         rgb(21,53,93); 
+    /*
+	filter:				progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFF', EndColorStr='#DDDDDD');
+	background:			-moz-linear-gradient(100% 100% 90deg, rgb(230,230,230), rgb(255,255,255));
+	background:			-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255,255,255)), to(rgb(230,230,230)));
+    */
+
+}
+
+.HdrMenu a:hover
+{
+	color:	    white;
+	outline:	0; /* prevent focus rectangle */
+}
+
+#PageHdrBox
+{
+	position:		relative;
+	display:		block;
+	overflow:		auto;
+	border-style:	solid;
+	border-color:	rgb(40,40,40);
+	border-color:		        rgb(70,87,126);
+	border-width:	0px 0px 2px 0px;
+	padding:		0px;
+	padding-bottom: 4px;
+	margin:			5px 0px 5px 20px;
+	height:         auto;
+	width:          925px;
+	
+}
+
+#PageHdrBox p
+{
+	position:		relative;
+	display:		block;
+	color:			rgb(40,40,40);
+	color:		    rgb(70,87,126); /*bluish*/
+	font-family:	Verdana, Arial, Tahoma;
+	font-weight:	bold;
+	font-size:		18pt;
+	padding:		0px;
+	margin-left:	0px;
+	margin-top:		12px;
+	margin-bottom:	5px;
+	
+	/*
+    -moz-font-smoothing: antialiased !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    -webkit-text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    */
+
+}
+
+#PageHdrDesc
+{
+	position:		relative;
+	display:		block;
+	color:			rgb(123,123,123);
+	font-family:	Verdana, Tahoma, Arial;
+	font-weight:	bold;
+	font-size:		10pt;
+	padding:		0px;
+	margin-left:	20px;
+	margin-top:		20px;
+	margin-bottom:	5px;
+}
+
+.PageHdrText
+{
+	position:		relative;
+	display:		block;
+	color:			black;
+	font-family:	Verdana, Tahoma, Arial;
+	font-weight:	normal;
+	font-size:		18pt;
+	padding:		0px;
+	margin:			0px;
+	margin-left:	20px;
+	margin-top:		20px;
+	margin-bottom:	5px;
+}
+
+#FooterBox  
+{
+    position:		relative; 
+    z-index:		50;
+    overflow:		visible;
+    background:	    rgb(21,53,93);
+	/*background:		#000000 url(../img/footer-bg.png) no-repeat left top; */  
+	padding:		0px 0px 5px;
+	margin:			0px;
+	border-style:	none;
+	border-color:	green;
+	border-width:	0px;
+	left:			0px;  
+	top:			0px; 
+	width:			100%;
+}
+
+#FooterBox #FooterImageLeft {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+#FooterBox #FooterImageRight {
+    position: absolute;
+    left: 85%;
+    top: 10px;
+}
+
+#FooterBox #Footer 
+{
+    position:		relative;
+    display:		block;
+    overflow:		hidden;
+    z-index:		1;
+	background:		transparent;    
+	border-style:	none;
+	border-color:	red;
+	border-width:	0px;
+	padding:		0px;
+	margin:			0px;
+	margin-left:	auto;
+	margin-right:	auto;
+	top:			0px;
+	width:			100%; 
+}
+
+#FooterBox #Footer div 
+{
+    position:		relative;
+    display:		block;
+    overflow:       auto;
+	background:		transparent;    
+	border:	solid 0px red;
+	padding:		0px;
+	margin:			0px;
+	margin-left:	auto;
+	margin-right:	auto;
+}
+
+#FooterBox #Footer div p {
+	color:			rgb(255,247,28);
+	font-family:    Verdana, Arial, Sans-Serif;
+	font-size:		12px;
+	font-weight:	normal;
+    border:         solid 0px rgb(64,28,21);
+	line-height:    16px;
+	text-align:     center;
+}
+
+#FooterBox #Footer div p .divider {
+    margin: 0px 15px;
+    font-weight: normal;
+}
+
+#FooterBox #Footer #email {
+ 	color: rgb(255,247,28);
+   padding-left: 2px;
+}
+
+#FooterBox #Footer #email:hover {
+	color: rgb(255,255,255);
+}
+
+#FooterBox #Footer #FooterImage 
+{
+    position:		relative;
+    z-index:		21;
+	border-style:	none;
+	border-width:	0px;
+	padding:		0px;
+	margin:			0px;
+	top:			0px;
+	left:			0px;
+}
+
+
+.CoolBox 
+{
+	/*background:		    rgb(233,231,233) url(../img/AllocEditBg.jpg) repeat-y; */  
+	background:			-moz-linear-gradient(100% 100% 180deg, rgb(114,133,157), rgb(255,255,255));
+	background:			-webkit-gradient(linear, left bottom, right bottom,	color-stop(0.28, rgb(255,255,255)),	color-stop(0.87, rgb(114,133,157)));
+	filter:				progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#72859D');
+	
+	/* Rounded Corners hacks */
+	/* border-radius: 1px; CSS3 (when available)*/
+	-moz-border-radius:     .5em; /* Firefox 3.5*/
+	-webkit-border-radius:  .5em; /* Safari, Chrome */
+}
+
+.StatusMsg
+{
+	position:		absolute;
+	color:			rgb(0,192,30);
+	z-Index:		10000;
+	font-family:	Arial, Tahoma, Verdana;
+	font-weight:	bold;
+	font-size:		8pt;
+	padding-top:	0px;
+}
+
+.StatusDetails
+{
+	position:		absolute;
+	color:			#777777;
+    color:			rgb(30,103,168);
+	font-family:	Tahoma, Arial, Verdana;
+	font-weight:	normal;
+	font-size:		8pt;
+	padding-top:	0px;
+}
+
+.RedBorder {
+    border: solid 1px red;
+}
+
+.TabBar  
+{
+    position:			relative;
+    display:            block;
+    overflow:			hidden;
+    z-Index: 10;
+	background:			transparent;
+	border:		        solid 0px red;
+	margin:				10px 20px -1px 15px;
+	padding:            0px 0px 0px 0px;
+	height:				auto;
+	width:              90%;
+}
+
+.TabBar a {
+	position:			relative;
+	display:            inline-block;
+	color:				blue;
+	color:              rgb(40,40,40);
+	font-family:		Tahoma, Verdana, Arial;
+	font-size:			8pt;
+	font-weight:		bold;
+	padding:			4px 4px 0px 4px;
+	margin:				0px;
+	border-style:		solid;
+	border-width:		1px 1px 0px 1px;
+	border-color:		rgb(200,200,200);
+	text-align:			center;
+	outline:			0; /* prevent focus rectangle */
+	top:				0px;
+	width:				140px;
+	height:				30px;
+	cursor:				pointer;
+	
+	
+	border-radius:			.5em .5em 0em 0em; /* CSS3 rounded corners (when available)*/
+	-moz-border-radius:		.5em .5em 0em 0em; /* Firefox 3.5+ rounded corners */
+	-webkit-border-radius:	.5em .5em 0em 0em; /* Safari, Chrome rounded corners */
+  
+    /*
+	filter:				progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFF', EndColorStr='#DDDDDD');
+	background:			-moz-linear-gradient(100% 100% 90deg, rgb(230,230,230), rgb(255,255,255));
+	background:			-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(255,255,255)), to(rgb(230,230,230)));
+    */
+    
+    background: rgb(114,133,157); /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: -moz-linear-gradient(top, rgb(114,133,157) 0%, rgb(255,255,255) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(114,133,157)), color-stop(100%,rgb(255,255,255))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgb(114,133,157) 0%,rgb(255,255,255) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgb(114,133,157) 0%,rgb(255,255,255)) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgb(114,133,157) 0%,rgb(255,255,255) 100%); /* IE10+ */
+    background: linear-gradient(top, rgb(114,133,157) 0%,rgb(255,255,255) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#72859D', endColorstr='#E8DFC7',GradientType=0 ); /* IE6-8 */
+
+}
+
+.TabBar .TabActive {
+    top: 0px;
+    height:30px;
+    border-bottom-color: rgb(232,223,199);
+    font-weight: bold;
+    zzz-Index: 10;
+}
+
+.TabBar .TabInactive {
+    top: 5px;
+    height:24px;
+    border-bottom-color: rgb(200,200,200);
+    font-weight: normal;
+    zzzz-index: 1;
+}
+
+.TabBar a:hover
+{
+	color:	    blue;
+	 
+	outline:	    0; /* prevent focus rectangle */
+	
+	/*
+	filter:         progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFF', EndColorStr='#FFFF00');
+	background:     -moz-linear-gradient(100% 100% 90deg, yellow, rgb(255,255,255));
+	background:		-webkit-gradient(linear, 0% 0%, 0% 100%, from(yellow), to(rgb(230,230,230)));
+    */
+}
+
+
+
+#MaintenanceMsgBox  {
+    position:			relative;
+    overflow:			auto;
+	background:			transparent;
+	border:             none 0px green;
+	margin:				20px 20px 5px 20px;
+	width:              70%;
+	height:             400px;
+}
+
+#MaintenanceMsgBox p {
+    color:			rgb(30,103,168);
+	color:			#777777;
+	font-family:	Tahoma, Arial, Verdana;
+	font-weight:	normal;
+	font-size:		14pt;
+	padding-top:	0px;
+}

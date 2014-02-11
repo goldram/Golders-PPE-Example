@@ -1,0 +1,256 @@
+
+body {
+	background:	    transparent; 
+	overflow:		visible;
+	padding:		0px;
+	margin:			0px;
+	height:         100%;
+	width:          100%;  
+	filter:         none;  
+}
+
+/* Prevent webKit browsers from hightlighting form fields */
+*:focus {outline: none;} 
+
+#CurrentSizesBox  {
+    position:		relative;
+    display:        block;
+    overflow:		visible;
+	border:			1px solid rgb(255,247,28);
+	margin:			0px 0px 0px 0px;
+	padding:		10px 0px 10px 0px;
+	width:			680px;
+
+	border-radius:		    10px; /* CSS3 rounded corners (when available)*/
+	-moz-border-radius:	    10px; /* Firefox 3.5+ rounded corners */
+	-webkit-border-radius:	10px; /* Safari, Chrome rounded corners */
+	
+	box-shadow:	        0px 0px 20px rgba(120, 120, 120, 1); /* Firefox 3.5+ box shadow */
+	-moz-box-shadow:	0px 0px 20px rgba(120, 120, 120, 1); /* Firefox 3.5+ box shadow */
+	-webkit-box-shadow: 0px 0px 20px rgba(120, 120, 120, 1); /* Chrome/Safari box shadow */
+	
+	background: rgb(21,53,93);
+	/*
+	background:		-moz-linear-gradient(100% 100% 180deg, rgb(114,133,157), rgb(255,255,255));
+	background:		-webkit-gradient(linear, left bottom, right bottom,	color-stop(0.28, rgb(255,255,255)),	color-stop(0.87, rgb(114,133,157)));
+	filter:			progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#72859D');
+    */
+}
+
+#CurrentSizesBox #ImageTop {
+    float:left;
+    display: inline-block;
+    margin: 5px 0px 5px 30px;
+}
+
+#CurrentSizesBox #BoxTitle 
+{
+	color:			rgb(76,51,04);
+	color:			rgb(255,247,28);
+	display:        block;
+	font-family:	Verdana, Tahoma, Arial;
+	font-weight:	bold;
+	font-size:		36px;
+	margin:         10px 0px 20px 30px !important;
+	
+    -moz-font-smoothing:    antialiased !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+#CurrentSizesPic {
+    position:   relative;
+    display:    inline-block;
+    paddding:   0px;
+    margin:     20px 10px 5px 30px;
+    border:     solid 0px red;
+}
+
+#SizesBox  {
+    position:		relative;
+    display:        inline-block;
+    overflow:		visible;
+    border:         solid 0px red;
+    padding:        0px 0px 0px 0px;
+	margin:			20px 0px 5px 5px;
+	height:         auto;
+	width:          450px;
+}
+
+#SizesBox p 
+{
+	color:			rgb(76,51,0);
+	color:			rgb(255,247,28);
+	font-family:	Verdana, Arial, Tahoma;
+	font-weight:	bold;
+	font-size:		30px;
+	margin:         20px 0px 10px 10px;
+	width:          400px;
+	text-align: center;
+	
+    -moz-font-smoothing:    antialiased !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+#SizesBox .SizesDataHdr {
+    position:			relative;
+	color:			    rgb(255,247,28);
+    font-family:		Lucida Calligraphy, Helvetica, Lucida Sans;
+    font-style:         italic;
+    font-weight:		bold;
+    font-size:			12pt;
+	border:		        solid 0px blue;
+    padding:		    4px 0px 4px 0px;
+    margin:				0px 0px 0px 0px;
+}
+
+#SizesBox #ItemTypeHdr {
+    margin: 0px 0px 0px 15px;
+	color: rgb(21,53,93); /* same as background to hide it */
+}
+
+#SizesBox #ItemBrandHdr {
+    margin: 0px 0px 0px 35px;
+}
+
+#SizesBox #ItemSizeHdr {
+    margin: 0px 0px 0px 90px;
+}
+
+/* NOTE: This is minor tweak to the class from the global.css */
+.FieldGroupBox .FieldGroupHdr  {
+	width:          98%;
+}
+
+.FieldCal2 {
+	position:			absolute;
+	margin:				0px;
+	padding:			0px;	
+	border:		        none 0px rgb(128,157,185);
+    width:				19px;
+    height:				17px;	
+    cursor:				pointer;
+}
+
+.FieldHdr {
+    position:			absolute;
+	color:			    rgb(255,247,28);
+	font-family:		Verdana, Tahoma;
+	font-size:			12pt;
+    font-weight:		normal;
+	border:		        solid 0px blue;
+    padding:		    4px 0px 4px 0px;
+    margin:				0px 0px 0px 0px;
+}
+
+.FieldHdr.Right {
+	text-align:         right;
+	width:              130px;
+}
+
+.FieldHdr2 {
+    position:			relative;
+	color:			    rgb(255,247,28);
+    font-family:		Lucida Calligraphy, Lucida Sans, Sans-Serif;
+    font-style: italic;
+    font-weight:		bold;
+    font-size:			12pt;
+	border:		        solid 0px blue;
+    padding:		    4px 0px 4px 0px;
+    margin:				0px 0px 0px 0px;
+}
+
+.FieldHdr2.Right {
+	display:            inline-block; /* allows the width property to take effect */
+	text-align:         right;
+	width:              130px;
+}
+
+.FieldValQty {
+	position:		relative;
+	color:			rgb(255,247,28);
+	background-color: rgb(21,53,93);
+	font-family:	Verdana, Tahoma;
+	font-size:		12pt;
+	font-weight:	bold;
+	border:	        solid 1px rgb(140,140,140);
+	margin:			0px;
+    padding:		4px 4px 4px 4px;
+    cursor:         pointer;
+	
+	top:0px;
+}
+
+.FieldVal2 {
+	position:		relative;
+	color:			rgb(255,247,28);
+	background-color: rgb(21,53,93);
+	font-family:	Verdana, Tahoma;
+	font-size:		12pt;
+	font-weight:	bold;
+	border:	        solid 1px rgb(140,140,140);
+	margin:			0px;
+    padding:		4px 2px 5px 5px;
+    cursor:         pointer;
+}
+
+.FieldVal2.ReadOnly {
+	position:		relative;
+	color:			rgb(255,247,28);
+	background-color: rgb(21,53,93);
+	font-family:	Verdana, Tahoma;
+	font-size:		12pt;
+	font-weight:	bold;
+	border:	        solid 1px rgb(140,140,140);
+	margin:			0px;
+    padding:		4px 0px 5px 5px;
+    cursor:         default;
+}
+
+.FieldValDropdown2 {
+	position:			relative;
+	color:			rgb(255,247,28);
+	background-color: rgb(21,53,93);
+	font-family:		Verdana, Tahoma;
+	font-size:			12pt;
+	font-weight:		bold;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		1px;
+	margin:				0px;
+	padding:			3px 2px 4px;
+}
+
+.FieldValDropdown2IE {
+	position:			relative;
+	color:			rgb(255,247,28);
+	background-color: rgb(21,53,93);
+	font-family:		Verdana, Tahoma;
+	font-size:			12pt;
+	font-weight:		bold;
+	border-style:		solid;
+	border-color:		rgb(140,140,140);
+	border-width:		1px;
+	margin:				0px;
+	padding:			3px 2px 4px;
+}
+
+.NoBorder {
+	border-width:	0px;
+}
+
+
+/* Initial Layout */
+
+#CurrentSizesBox {left:15px; top:15px; height:auto;}
+
+#CurrentSizesBox #BoxTitle {width:400px;}
+
+#CurrentSizesBox .StatusMsg {left: 180px; top: 30px; width:500px; height: 30px;}
+
+#CurrentSizesBox .ActionBar {left: 10px; top:5px; width:180px;} 
+#CurrentSizesBox .ActionBar #ActionSubmit	{left:  0px;}
+#CurrentSizesBox .ActionBar #ActionCancel	{left:90px;}
+
+
+  
+

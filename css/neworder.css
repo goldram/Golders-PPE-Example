@@ -1,0 +1,89 @@
+
+/*-----------------------------------------------------------------------
+ Authorize Order popup.    
+-------------------------------------------------------------------------*/
+
+#NewOrderBox {
+    left:100px; 
+    top:400px; 
+    width:720px; 
+    height:auto;
+
+	border-radius:		    10px; /* CSS3 rounded corners (when available)*/
+	-moz-border-radius:	    10px; /* Firefox 3.5+ rounded corners */
+	-webkit-border-radius:	10px; /* Safari, Chrome rounded corners */
+	
+	box-shadow:	        0px 0px 20px rgba(120, 120, 120, 1); /* Firefox 3.5+ box shadow */
+	-moz-box-shadow:	0px 0px 20px rgba(120, 120, 120, 1); /* Firefox 3.5+ box shadow */
+	-webkit-box-shadow: 0px 0px 20px rgba(120, 120, 120, 1); /* Chrome/Safari box shadow */
+
+}
+
+#NewOrderBox #ImageTop {
+    position: absolute;
+}
+
+#ActionEditEmployee {
+	position:			absolute;
+	color:				blue;
+	font-family:		Verdana, Arial, Tahoma;
+	font-size:			8pt;
+	font-weight:		normal;
+	padding:			4px 0px 0px 0px;
+	margin:				0px;
+	border-style:		none;
+	border-width:		1px;
+	border-color:		rgb(200,200,200);
+	cursor:				pointer;
+	text-align:			center;
+	outline:			0; /* prevent focus rectangle */
+	top:				0px;
+	width:				45px;
+	height:				20px;
+}
+
+#ActionEditEmployee:hover
+{
+	color:      orange;
+	outline:	0; /* prevent focus rectangle */
+}
+
+#OrderQtyDataBox {
+    border:         solid 1px rgb(40,40,40);
+    padding:        5px 0px 5px 0px;
+}
+
+#DataItemBox #OrderCategory {
+	color:          rgb(10,10,10);
+	font-weight:    normal;
+}
+
+#NewOrderBox .DataGroupHdr3 {top:15px;}
+
+#NewOrderBox .StatusMsg {left: 25px; top: 50px; width:500px; height: 30px;}
+
+#NewOrderBox #ImageTop {left: 300px; top: 5px;}
+
+#NewOrderBox .ActionBar {left: 10px; top:10px; width:210px;} 
+#NewOrderBox .ActionBar #ActionSubmit	{left:  0px; width:120px;}
+#NewOrderBox .ActionBar #ActionCancel	{left:130px;}
+
+#NewOrderBox #EmployeeHdr   {left: 10px; top: 90px; width:120px;}
+#NewOrderBox #Employee		{left:140px; top: 90px; width:190px;}
+#NewOrderBox #ActionEditEmployee {left:325px; top: 90px; }
+
+#NewOrderBox #GenderHdr     {left: 10px; top:120px; width:120px;}
+#NewOrderBox #Gender        {left:140px; top:120px; width: 80px;}
+
+#NewOrderBox #DeliverToHdr  {left: 10px; top:160px; width:120px;}
+#NewOrderBox #DeliverTo	    {left:140px; top:160px; width:190px;}
+
+#NewOrderBox #AuthorizedByHdr   {left: 10px; top:185px; width:120px;}
+#NewOrderBox #AuthorizedBy		{left:140px; top:185px; width:190px;}
+
+#NewOrderBox #OrderPayMethodHdr {left: 10px; top:210px; width:120px;}
+#NewOrderBox #OrderPayMethod    {left:140px; top:210px; width:190px;}
+
+#OrderQtyHdr     {left:395px; top:80px; width:280px;}
+#OrderQtyDataBox {left:370px; top:72px; width:300px;}
+#OrderQtyDataBox #DataItemBox {width:100%;}
